@@ -1,0 +1,145 @@
+/* Cabeçalho Inicial */
+.main-name:hover {
+    background-color: rgb(53, 53, 53); 
+}
+
+.nome {
+    color:rgb(48, 26, 148);
+}
+
+.navbar { 
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+.site a { 
+    color: rgb(48, 26, 148);
+}
+
+.titulo { 
+    border-bottom: solid 1px black;
+    padding-bottom: 5px; 
+    margin-left: 60px;
+    width: 90%; 
+}
+
+.foto { 
+    width: 60%; 
+    margin: 30px 70px; 
+}
+
+.icons { 
+    font-size: larger;
+}
+
+.icons a { 
+    color: black;
+    padding: 2px;
+}
+
+.icons a:hover { 
+    color: rgb(53, 53, 53);
+}
+
+.user { 
+    display: flex;
+    float:right;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.user p { 
+    margin-left: 2px;
+    font-size: 16px; 
+}
+
+/* Cards */
+.card { 
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 85%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    width: 90%;
+}
+
+.user-card { 
+    display: flex;
+    float: right;
+}
+
+/* Carrosel */
+.carousel-inner > .carousel-item { 
+   height: 400px;  
+}
+
+.item img { 
+    width: 100%; 
+}
+/* Flex Box */
+.flex-container { 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 75px;
+}
+
+.box {
+    margin-right: 30px;
+}
+
+.box img {
+    width: 125px;
+}
+
+.box p {
+    text-align: center;
+    color: rgb(48, 26, 148);
+    text-decoration-line: underline; 
+}
+
+/*Rodapé*/
+.texto { 
+    padding: 10px; 
+}
+
+/* Design Responsivo */ 
+img { 
+    max-width: 100%; 
+}
+
+@media screen and (max-width: 992px) { 
+
+    .flex-container { 
+        display: flex; 
+        flex-wrap:wrap; 
+        justify-content: space-evenly;
+        margin: 0 auto; 
+    }
+
+    .perfil { 
+        align-items: center;
+        width: 100%; 
+    }
+
+    .icons { 
+        font-size: x-large;
+        display: flex;
+    }
+
+    .titulo { 
+        text-align: center;
+        margin: 15px 15px; 
+    }
+
+    .carousel-inner > .carousel-item { 
+        height: 250px;  
+    }
+}

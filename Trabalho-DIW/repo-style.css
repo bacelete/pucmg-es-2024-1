@@ -1,0 +1,71 @@
+header { 
+    width: 100%; 
+}
+
+.main-name:hover {
+    background-color: rgb(53, 53, 53); 
+}
+
+/* Secção Repositório */
+.infos { 
+    margin: 0 100px;
+}
+
+.subtitulo { 
+    color: rgb(48, 26, 148);
+}
+
+.topicos ul { 
+    display: flex;
+    flex-wrap: wrap; 
+   
+}
+
+.topicos ul li { 
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(48, 26, 148);
+}
+
+.titulo { 
+    border-bottom: solid 1px black;
+    padding-bottom: 5px; 
+    margin-left: 60px;
+    width: 90%; 
+}
+
+.user {
+    font-size: x-large; 
+    display: flex;
+    float: right; 
+    text-align: center;
+}
+
+.user i { 
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 992px) { 
+    .titulo { 
+        text-align: center;
+        margin: 15px 15px; 
+    }
+
+    .topicos ul { 
+        display: block; 
+        text-align: center;
+    }
+
+    .topicos ul li { 
+        margin-top: 5px;
+    }
+
+    .user { 
+        display: none;
+    }
+
+
+}
